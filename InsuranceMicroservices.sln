@@ -221,8 +221,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "http", "http", "{804A409B-E
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AgentPortalApiGateway", "AgentPortalApiGateway", "{0A028FE5-4399-449B-A2E2-1D43E33B11D2}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\AgentPortalApiGateway.csproj = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\AgentPortalApiGateway.csproj
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\AppSettings.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\AppSettings.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.Development.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.Development.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.docker.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.docker.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\Dockerfile = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\Dockerfile
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\ocelot.docker.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\ocelot.docker.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\ocelot.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\ocelot.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\Program.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\Program.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{0180BB77-E09F-4491-A39B-561E3882D1F8}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\Properties\launchSettings.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\Properties\launchSettings.json
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{CDA15A71-EA76-48D8-83CD-2B59AF689DCE}"
 	ProjectSection(SolutionItems) = preProject
