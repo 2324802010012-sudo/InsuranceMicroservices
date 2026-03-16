@@ -365,6 +365,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{61
 		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductsList.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductsList.razor
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "file back up", "file back up", "{F629155C-FB89-475C-93C7-DF19ED7CF4CB}"
+	ProjectSection(SolutionItems) = preProject
+		file back up\lab_netmicro_jobs.backup = file back up\lab_netmicro_jobs.backup
+		file back up\lab_netmicro_payments.backup = file back up\lab_netmicro_payments.backup
+		file back up\lab_netmicro_policy.backup = file back up\lab_netmicro_policy.backup
+		file back up\lab_netmicro_pricing.backup = file back up\lab_netmicro_pricing.backup
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
