@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37027.9 d17.14
+VisualStudioVersion = 17.14.37027.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{76DFD5FD-98FE-4EE0-B595-3C7EA7B3CBF8}"
 EndProject
@@ -50,6 +50,323 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.Api", "ChatService.Api\ChatService.Api.csproj", "{8D5A163A-BF54-405A-87DB-B2F74D846BFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.Test", "ChatService.Test\ChatService.Test.csproj", "{95FEFAF8-C869-448C-B765-95B946F00CF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postgres", "postgres", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\postgres\postgres\createdatabases.sql = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\postgres\postgres\createdatabases.sql
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\postgres\postgres\Dockerfile = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\postgres\postgres\Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eureka-server", "eureka-server", "{35EEFA86-61B6-45F4-8DF7-E87122C2AFF0}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\build.gradle = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\build.gradle
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\Dockerfile = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\Dockerfile
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\gradlew = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\gradlew
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\gradlew.bat = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\gradlew.bat
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\Web.config = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\Web.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scr", "scr", "{C381B909-C10D-4891-A7E2-9B3158EE7AF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "main", "main", "{AF9C72AE-E472-4988-8B3B-223F64894889}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "java", "java", "{06B628C2-F6E8-44C5-853E-71B80DA65C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resourcues", "resourcues", "{923AD3CE-6E7A-4763-B3DB-8DCF149D3759}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\src\main\resources\application.yml = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\src\main\resources\application.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net", "net", "{A886AA3D-51A5-4727-8DD1-79CF7B1C85C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chrisricbardson", "chrisricbardson", "{3E73BEF0-9352-4F5B-934A-7EC1DFAAAAE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eurekaserver", "eurekaserver", "{A3C1FFF2-D69C-4962-AF8E-17FAD8ADF810}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\src\main\java\net\chrisrichardson\microservices\eurekaserver\EurekaServer.java = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\src\main\java\net\chrisrichardson\microservices\eurekaserver\EurekaServer.java
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gradle", "gradle", "{A0BE0538-5CB5-4A20-BFBD-0911A90B74BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wrapper", "wrapper", "{C0DFD308-C198-4307-B7A2-0C420D4E0A5A}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\gradle\wrapper\gradle-wrapper.jar = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\gradle\wrapper\gradle-wrapper.jar
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\gradle\wrapper\gradle-wrapper.properties = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\eureka-server\eureka-server\gradle\wrapper\gradle-wrapper.properties
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{210774CF-D11B-42A0-A9DB-0435F2BAEB74}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\Web.config = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\Web.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{519F53A3-73AE-4013-89C5-0CA245D05DC9}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\app-build.sh = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\app-build.sh
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\app-down.sh = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\app-down.sh
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\app-logs.sh = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\app-logs.sh
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\app-run.sh = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\app-run.sh
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\app.yml = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\app.yml
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\build-without-tests.bat = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\build-without-tests.bat
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\build-without-tests.sh = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\build-without-tests.sh
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\build.bat = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\build.bat
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\build.sh = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\build.sh
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\infra-build.sh = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\infra-build.sh
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\infra-down.sh = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\infra-down.sh
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\infra-logs.sh = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\infra-logs.sh
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\infra-run.sh = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\infra-run.sh
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\infra.yml = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\infra.yml
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\rabbitmq-isolated.conf = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\scripts\scripts\rabbitmq-isolated.conf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorWasmClient", "BlazorWasmClient", "{54A692CB-2B48-4A28-A7E9-7BA486D2F0F2}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\App.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\App.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\BlazorWasmClient.csproj = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\BlazorWasmClient.csproj
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\GlobalUsings.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\GlobalUsings.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Program.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Program.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\_Imports.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\_Imports.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{EBD4D51A-038A-4818-BF40-50CB230F4B97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layouts", "Layouts", "{CDF5E356-E0A3-4E49-A84B-804F0714DA44}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Layouts\MainLayout.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Layouts\MainLayout.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Layouts\MainLayout.razor.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Layouts\MainLayout.razor.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pages", "Pages", "{B4DACAE0-EFFA-4C81-A45C-5EEE7C4B1E5E}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Pages\Home.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Pages\Home.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{E02C6BEE-3B03-4AC7-BBCA-050A6E56E562}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Properties\launchSettings.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Properties\launchSettings.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{15C88303-270D-4D24-9C95-02FD8DFAA32C}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Shared\ApiResponse.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Shared\ApiResponse.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Shared\CustomValidations.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Shared\CustomValidations.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Shared\DateTimeExtension.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Shared\DateTimeExtension.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Shared\ProductIcons.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Shared\ProductIcons.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{9023B84E-CA8E-4CB6-9AB5-95F7644321ED}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\appsettings.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\appsettings.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\brand-logo.png = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\brand-logo.png
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\favicon.ico = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\favicon.ico
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\index.html = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{81C171B0-B065-4975-90EF-B997943D6E9E}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\AuthClient.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\AuthClient.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\AuthRequest.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\AuthRequest.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\AuthResponse.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\AuthResponse.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\CustomAuthenticationStateProvider.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\CustomAuthenticationStateProvider.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\Login.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\Login.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\SessionStorageExtension.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\SessionStorageExtension.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\UserSession.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Auth\UserSession.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chat", "Chat", "{EA5E94D8-C0FF-4C10-A910-74721079603F}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Chat\Chat.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Chat\Chat.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Chat\ChatMessage.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Chat\ChatMessage.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dashboard", "Dashboard", "{E64A7762-2791-4406-82AD-30F0C5C926FA}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\Dashboard.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\Dashboard.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\DashboardClient.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\DashboardClient.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\ProductsSalesCard.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\ProductsSalesCard.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\ProductTotalSalesModel.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\ProductTotalSalesModel.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\SalesAgentsCard.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\SalesAgentsCard.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\TotalSalesCard.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\TotalSalesCard.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\TrandsCard.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Dashboard\TrandsCard.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layout", "Layout", "{ACFD76EE-F416-4967-86A9-DEE2CB416890}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Layout\FooterMenu.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Layout\FooterMenu.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Layout\SideMenu.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Layout\SideMenu.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor.css = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor.css
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Layout\TopMenu.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Layout\TopMenu.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PolicySearch", "PolicySearch", "{4DB4C77F-6C68-4A10-AE33-AB4BEDFBE875}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\PolicySearch\PolicySearch.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\PolicySearch\PolicySearch.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\PolicySearch\PolicySearchClient.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\PolicySearch\PolicySearchClient.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\PolicySearch\PolicySearchCriteriaModel.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\PolicySearch\PolicySearchCriteriaModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{962BBE1A-E0E5-4DF1-8E4C-82DC16397545}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\ContractDetailsSection.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\ContractDetailsSection.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\OfferParametersModel.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\OfferParametersModel.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\OfferParamsSection.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\OfferParamsSection.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\PolicyClient.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\PolicyClient.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\PolicySummarySection.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\PolicySummarySection.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductCard.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductCard.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductDetails.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductDetails.razor
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductsClient.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductsClient.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductsList.razor = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\Components\Products\ProductsList.razor
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{47071BF4-EFA6-48D7-8E36-090E2E28203B}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\css\blazor-ui.css = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\css\blazor-ui.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{A2CDCC75-A680-43F7-96B1-7A14A33A0D05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{376F659F-E80D-4E85-967D-ECFF941330F4}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\car.jpg = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\car.jpg
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\farm.jpg = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\farm.jpg
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\house.jpg = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\house.jpg
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\travel.jpg = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\travel.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "material", "material", "{1A06BFB7-9457-4290-828E-D2DCEF1E5D1A}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.css = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.css
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.css.map = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.css.map
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.min.css = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.min.css
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.min.css.map = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\css\material\material.min.css.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "material", "material", "{048C9747-6FD6-4175-A8B2-84DD0325380E}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.js = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.js
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.js.map = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.js.map
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.min.js = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.min.js
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.min.js.map = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\js\material\material.min.js.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "avatars", "avatars", "{31EB2728-0171-482E-BB85-32F7A55AD13E}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\admin.png = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\admin.png
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\agent1.png = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\agent1.png
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\danny_solid.png = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\danny_solid.png
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\jimmy_solid.png = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\BlazorWasmClient\BlazorWasmClient\wwwroot\static\avatars\jimmy_solid.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{DB0837DD-F2E2-47FD-BABA-74BB12E964F8}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\.dockerignore = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\.dockerignore
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\.env-example = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\.env-example
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\.gitignore = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\.gitignore
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\babel.config.js = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\babel.config.js
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\Dockerfile = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\Dockerfile
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\nginx.conf = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\nginx.conf
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\package-lock.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\package-lock.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\package.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\package.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\README.md = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\README.md
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\yarn.lock = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\yarn.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{B1F52A86-E360-41F2-87C9-57086EE8657B}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\favicon.ico = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\favicon.ico
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\index.html = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92A2A944-E2D1-41E9-92A5-96FBC161A13F}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\App.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\App.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\main.js = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\main.js
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\router.js = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\router.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{B2167835-747E-4DF4-AC65-62CA50A2F8FF}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\car.jpg = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\car.jpg
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\farm.jpg = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\farm.jpg
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\house.jpg = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\house.jpg
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\travel.jpg = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\travel.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "avatars", "avatars", "{B22C9FD6-30C6-4701-9AEF-CAD9385070F7}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\avatars\admin.png = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\avatars\admin.png
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\avatars\agent1.png = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\avatars\agent1.png
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\avatars\danny_solid.png = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\avatars\danny_solid.png
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\avatars\jimmy_solid.png = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\public\static\avatars\jimmy_solid.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views", "views", "{8D97BCF1-B813-4995-8EE7-B51FD1AB5186}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\AccountView.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\AccountView.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\ChatbotView.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\ChatbotView.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\ChatView.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\ChatView.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\DashboardView.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\DashboardView.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\HomeView.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\HomeView.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\PoliciesView.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\PoliciesView.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\PolicyCreateView.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\PolicyCreateView.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\PolicyDetailsView.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\PolicyDetailsView.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\ProductDetailsView.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\ProductDetailsView.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\ProductsView.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\views\ProductsView.vue
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{6929A441-6179-4F89-AD2F-7541BC2E7CB3}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\Account.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\Account.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\Chat.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\Chat.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\Chatbot.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\Chatbot.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\CoverList.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\CoverList.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\Dashboard.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\Dashboard.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\Home.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\Home.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\PolicyCreate.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\PolicyCreate.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\PolicyDetails.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\PolicyDetails.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\PolicyList.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\PolicyList.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\ProductCard.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\ProductCard.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\ProductDetails.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\ProductDetails.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\ProductList.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\ProductList.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\SalesAgents.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\SalesAgents.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\SalesBar.js = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\SalesBar.js
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\SalesDistribution.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\SalesDistribution.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\SalesLines.js = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\SalesLines.js
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\SalesPie.js = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\SalesPie.js
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\SalesTrendsLines.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\SalesTrendsLines.vue
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\TotalSalesCard.vue = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\TotalSalesCard.vue
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{BFC30294-7703-41F7-817B-75D36B91D5E4}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\assets\logo.png = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\assets\logo.png
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\assets\logo_horizontal.png = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\assets\logo_horizontal.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "http", "http", "{804A409B-EABB-4CA9-B79A-5B7C361D6AB0}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\http\ApiClient.js = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\http\ApiClient.js
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\http\Auth.js = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\http\Auth.js
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\http\WebSocket.js = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\Web\Web\src\components\http\WebSocket.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AgentPortalApiGateway", "AgentPortalApiGateway", "{0A028FE5-4399-449B-A2E2-1D43E33B11D2}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\AgentPortalApiGateway.csproj = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\AgentPortalApiGateway.csproj
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\AppSettings.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\AppSettings.cs
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.Development.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.Development.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.docker.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.docker.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\appsettings.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\Dockerfile = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\Dockerfile
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\ocelot.docker.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\ocelot.docker.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\ocelot.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\ocelot.json
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\Program.cs = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{0180BB77-E09F-4491-A39B-561E3882D1F8}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\Properties\launchSettings.json = C:\Users\DIEU TRAN\OneDrive\Máy tính\Kiến Trúc\AgentPortalApiGateway\AgentPortalApiGateway\Properties\launchSettings.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -156,6 +473,45 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C381B909-C10D-4891-A7E2-9B3158EE7AF5} = {35EEFA86-61B6-45F4-8DF7-E87122C2AFF0}
+		{AF9C72AE-E472-4988-8B3B-223F64894889} = {C381B909-C10D-4891-A7E2-9B3158EE7AF5}
+		{06B628C2-F6E8-44C5-853E-71B80DA65C8E} = {AF9C72AE-E472-4988-8B3B-223F64894889}
+		{923AD3CE-6E7A-4763-B3DB-8DCF149D3759} = {AF9C72AE-E472-4988-8B3B-223F64894889}
+		{A886AA3D-51A5-4727-8DD1-79CF7B1C85C5} = {06B628C2-F6E8-44C5-853E-71B80DA65C8E}
+		{3E73BEF0-9352-4F5B-934A-7EC1DFAAAAE9} = {A886AA3D-51A5-4727-8DD1-79CF7B1C85C5}
+		{A3C1FFF2-D69C-4962-AF8E-17FAD8ADF810} = {3E73BEF0-9352-4F5B-934A-7EC1DFAAAAE9}
+		{A0BE0538-5CB5-4A20-BFBD-0911A90B74BD} = {35EEFA86-61B6-45F4-8DF7-E87122C2AFF0}
+		{C0DFD308-C198-4307-B7A2-0C420D4E0A5A} = {A0BE0538-5CB5-4A20-BFBD-0911A90B74BD}
+		{519F53A3-73AE-4013-89C5-0CA245D05DC9} = {210774CF-D11B-42A0-A9DB-0435F2BAEB74}
+		{EBD4D51A-038A-4818-BF40-50CB230F4B97} = {54A692CB-2B48-4A28-A7E9-7BA486D2F0F2}
+		{CDF5E356-E0A3-4E49-A84B-804F0714DA44} = {54A692CB-2B48-4A28-A7E9-7BA486D2F0F2}
+		{B4DACAE0-EFFA-4C81-A45C-5EEE7C4B1E5E} = {54A692CB-2B48-4A28-A7E9-7BA486D2F0F2}
+		{E02C6BEE-3B03-4AC7-BBCA-050A6E56E562} = {54A692CB-2B48-4A28-A7E9-7BA486D2F0F2}
+		{15C88303-270D-4D24-9C95-02FD8DFAA32C} = {54A692CB-2B48-4A28-A7E9-7BA486D2F0F2}
+		{9023B84E-CA8E-4CB6-9AB5-95F7644321ED} = {54A692CB-2B48-4A28-A7E9-7BA486D2F0F2}
+		{81C171B0-B065-4975-90EF-B997943D6E9E} = {EBD4D51A-038A-4818-BF40-50CB230F4B97}
+		{EA5E94D8-C0FF-4C10-A910-74721079603F} = {EBD4D51A-038A-4818-BF40-50CB230F4B97}
+		{E64A7762-2791-4406-82AD-30F0C5C926FA} = {EBD4D51A-038A-4818-BF40-50CB230F4B97}
+		{ACFD76EE-F416-4967-86A9-DEE2CB416890} = {EBD4D51A-038A-4818-BF40-50CB230F4B97}
+		{4DB4C77F-6C68-4A10-AE33-AB4BEDFBE875} = {EBD4D51A-038A-4818-BF40-50CB230F4B97}
+		{962BBE1A-E0E5-4DF1-8E4C-82DC16397545} = {EBD4D51A-038A-4818-BF40-50CB230F4B97}
+		{47071BF4-EFA6-48D7-8E36-090E2E28203B} = {9023B84E-CA8E-4CB6-9AB5-95F7644321ED}
+		{A2CDCC75-A680-43F7-96B1-7A14A33A0D05} = {9023B84E-CA8E-4CB6-9AB5-95F7644321ED}
+		{376F659F-E80D-4E85-967D-ECFF941330F4} = {9023B84E-CA8E-4CB6-9AB5-95F7644321ED}
+		{1A06BFB7-9457-4290-828E-D2DCEF1E5D1A} = {47071BF4-EFA6-48D7-8E36-090E2E28203B}
+		{048C9747-6FD6-4175-A8B2-84DD0325380E} = {A2CDCC75-A680-43F7-96B1-7A14A33A0D05}
+		{31EB2728-0171-482E-BB85-32F7A55AD13E} = {376F659F-E80D-4E85-967D-ECFF941330F4}
+		{B1F52A86-E360-41F2-87C9-57086EE8657B} = {DB0837DD-F2E2-47FD-BABA-74BB12E964F8}
+		{92A2A944-E2D1-41E9-92A5-96FBC161A13F} = {DB0837DD-F2E2-47FD-BABA-74BB12E964F8}
+		{B2167835-747E-4DF4-AC65-62CA50A2F8FF} = {B1F52A86-E360-41F2-87C9-57086EE8657B}
+		{B22C9FD6-30C6-4701-9AEF-CAD9385070F7} = {B2167835-747E-4DF4-AC65-62CA50A2F8FF}
+		{8D97BCF1-B813-4995-8EE7-B51FD1AB5186} = {92A2A944-E2D1-41E9-92A5-96FBC161A13F}
+		{6929A441-6179-4F89-AD2F-7541BC2E7CB3} = {92A2A944-E2D1-41E9-92A5-96FBC161A13F}
+		{BFC30294-7703-41F7-817B-75D36B91D5E4} = {92A2A944-E2D1-41E9-92A5-96FBC161A13F}
+		{804A409B-EABB-4CA9-B79A-5B7C361D6AB0} = {6929A441-6179-4F89-AD2F-7541BC2E7CB3}
+		{0180BB77-E09F-4491-A39B-561E3882D1F8} = {0A028FE5-4399-449B-A2E2-1D43E33B11D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BBFF5323-98AE-41C5-B289-E59C6D0241F5}

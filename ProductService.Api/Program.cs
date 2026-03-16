@@ -1,11 +1,15 @@
+﻿using MediatR;
+using ProductService;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Đăng ký MediatR
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Class1).Assembly));
 
 var app = builder.Build();
 
